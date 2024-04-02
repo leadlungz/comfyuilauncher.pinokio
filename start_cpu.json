@@ -2,7 +2,7 @@
   "run": [{
     "method": "shell.start",
     "params": {
-      "path": "ComfyUI-Launcher",
+      "path": "ComfyUI-Launcher/server",
       "env": { "PYTORCH_MPS_HIGH_WATERMARK_RATIO": "0.0" }
     }
   }, {

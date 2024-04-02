@@ -4,7 +4,7 @@
     "method": "shell.run",
     "params": {
       "venv": "env",
-      "path": "ComfyUI-Launcher",
+      "path": "ComfyUI-Launcher/server",
       "env": { "PYTORCH_MPS_HIGH_WATERMARK_RATIO": "0.0" },
       "message": "python server.py {{platform === 'darwin' ? '--force-fp16' : ''}}",
       "on": [{ "event": "/http:\/\/[0-9.:]+/", "done": true }]
