@@ -1,0 +1,25 @@
+{
+  "run": [{
+    "method": "shell.run",
+    "params": {
+      "message": "git pull"
+    }
+  }, {
+    "method": "shell.run",
+    "params": {
+      "message": "git pull",
+      "path": "ComfyU-Launcher"
+    }
+  }, {
+    "method": "input",
+    "params": {
+      "title": "Updated",
+      "description": "Update successful. Restart the app from the dashboard"
+    }
+  }, {
+    "method": "browser.open",
+    "params": {
+      "uri": "/?selected=ComfyUI-Launcher"
+    }
+  }]
+}
